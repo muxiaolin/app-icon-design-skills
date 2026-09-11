@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 自适应图标模板
+     放置于: res/mipmap-anydpi-v26/ic_launcher.xml
+     三层均可为矢量(VectorDrawable)或位图; monochrome 层强烈建议提供
+     (Android 13+ 主题图标 / Material You 着色依赖它)。 -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_monochrome" />
+</adaptive-icon>
+<!-- 清单引用:
+<application
+    android:icon="@mipmap/ic_launcher"
+    android:roundIcon="@mipmap/ic_launcher_round"  (可选, 圆形背景主导时)
+    ... >
+</application>
+设计约束: 画布 108dp; 系统视口 72dp; 安全区 66dp; 徽标 ≥48dp 且 ≤66dp; 四边 18dp 预留蒙版与动效。 -->
